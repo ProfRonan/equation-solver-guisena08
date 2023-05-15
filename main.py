@@ -23,7 +23,7 @@ else:
             print('A equação não possui raízes reais')
         elif x==0:
             y = -q2 /  (2 *q1)
-            print(f'A equação possui apenas uma raiz real{y:.2f}')
+            print(f'A equação possui uma raiz real{y:.2f}')
         else:
             if x >0:
              t = (-q2 - x **0.5)/(2*q1)
