@@ -1,20 +1,22 @@
 numero = float(input("Digite um número:"))
 if numero <1 or numero >2:
-    print('Grau Invalido')
+    print('Grau Inválido')
 elif numero ==1:
-    print('Equação do primeiro grau')  
+    print('A equação é do primeiro grau')  
     p1 = float(input('Digite o valor de a:'))
     if p1 ==0:
-        print('Valor inválido.')
+        print('Valor de a inválido.')
+    if p1==1:
+        print('A é equação é do primeiro grau')    
     else:
         p2 = float(input('Digite o valor de b:'))
         x = -p2 / -p1 
         print(f"o valor da raiz é {x:.2f}")   
 else:
-    print('Equação do segundo grau.')
+    print('A equação do segundo grau.')
     q1 = float(input('digite o valor de a:'))
     if q1 ==0:
-        print('valor invalido!')
+        print('valor de a inválido')
     else:
         q2 = float(input('digite o valor de b:'))
         q3 = float(input('digite o valor de c:'))
@@ -29,6 +31,7 @@ else:
              t = (-q2 - x **0.5)/(2*q1)
              a = (-q2 + x **0.5)/(2*q1) 
             print(f'`A equação possui duas raízes reais{t:.2f} e {a:.2f} ')  
+            
                     
 
             
